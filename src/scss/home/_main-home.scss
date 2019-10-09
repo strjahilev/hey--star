@@ -1,0 +1,113 @@
+@import "mixins";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Anonymous Pro', monospace;
+}
+.container-content{
+  width: 1440px;
+  height: 891px;
+  display: flex;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .main-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    @include margin();
+    .main-header-logo img{
+      width: 169.63px;
+    }
+    .main-header-link{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .main-header-item{
+      list-style-type:none;
+      margin-left: 16px;
+      width: 44px;
+      height: 44px;
+    }
+    .main-social-link{
+      display: flex;
+    }
+    .main-link{
+      margin-left: 40px;
+    }
+    .main-link a{
+      font-size: 16px;
+      line-height: 54px;
+      text-decoration-line: underline;
+      color: #649595;
+    }
+  }
+}
+section{
+  display: flex;
+  @include margin;
+  margin-top: 212.4px;
+  margin-bottom: 256px;
+  flex-direction: column;
+  justify-content: start;
+  h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 121%;
+    margin-right: 90px;
+    margin-bottom: 42px;
+  }
+  a{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 25px;
+    background: #F87E7E;
+    border-radius: 8.84848px;
+    display: flex;
+    align-items: center;
+    width: 520px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #151E29;
+    text-decoration: none;
+  }
+  span{
+    margin-right: 29px;
+  }
+  img{
+    width: 71px;
+    height: 34px;
+  }
+}
+.main-footer{
+  background: #7E6EE6;
+  padding: 35px 0;
+  .main-footer-list{
+    display: flex;
+    list-style-type:none;
+    @include margin;
+    .main-footer-item{
+      margin-right: 46px;
+    }
+    a{
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 150%;
+      color: #000000;
+      opacity: 0.6;
+      text-decoration: none;
+
+    }
+  }
+}
+.movie{
+  width: 659px;
+  height: 100%;
+  background: #7E6EE6;
+  opacity: 0.5;
+}
