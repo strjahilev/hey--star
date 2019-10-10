@@ -1,0 +1,23 @@
+.container-bg{
+  position: absolute;
+  background: #151E29;
+  width: 1440px;
+  height: 891px;
+  z-index: -1;
+}
+.image-bg{
+  width: 831px;
+  height: 891px;
+  background: yellow;
+  ._02{
+    position: relative;
+    top:328px;
+    left:-413px;
+  }
+  ._03{
+    position: relative;
+    left:465px;
+    top: 0px;
+
+  }
+}
