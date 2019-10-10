@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+
+.modal-popup {
+  display: flex;
+  flex-direction: column;
+  //background-image: url("../../img/img-home-join/bg-image.png");
+  background-attachment:fixed;
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #151E29;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  width: 68%;
+  height: 100%;
+  padding-top: 1px;
+  margin-top: -1px;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+.wrapper{
+  margin-top: 4%;
+  margin-left: 6%;
+  margin-right: 25%;
+}
+.header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 9%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+
+  h1{
+    padding: 0;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 28px;
+    color: #F9E7EF;
+    font-family: 'Anonymous Pro', monospace;
+  }
+  img{
+   margin-right: 6%;
+  }
+}
+main{
+  form{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .form-group{
+    display: flex;
+    margin-bottom: 3%;
+  }
+  input[type="text"]::placeholder {
+    color: #F9E7EF;
+    opacity: 0.3;
+  }
+  .form-label{
+    width: 45%;
+    padding-bottom: 1.3%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(249, 231, 239);
+    border-bottom: 1px solid #272D38;
+    font-family: 'Anonymous Pro', monospace;
+    &:last-child{
+      width: 90%;
+      border: none;
+    }
+  }
+  .form-input{
+    background: rgba(0,0,0,0);
+    width: 55%;
+    opacity: 0.9;
+    border: none;
+    border-bottom: 1px solid #F9E7EF;
+    outline: none;
+    font-size: 18px;
+    line-height: 18px;
+    color: #F9E7EF;
+    font-family: 'Anonymous Pro', monospace;
+  }
+  .form-select{
+    width: 55%;
+    background: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid #F9E7EF;
+    outline: none;
+    font-size: 18px;
+    line-height: 18px;
+    color: #F9E7EF;
+    font-family: 'Anonymous Pro', monospace;
+  }
+  .btn{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 75%;
+    height: 7.7%;
+    margin-right: 25%;
+    //background-image: url("../../img/img-home-join/bg-button.png");
+    background-color: #F87E7E;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #151E29;
+    border: none;
+    font-family: 'Anonymous Pro', monospace;
+  }
+}
+.image-bg{
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  width: 10%;
+  height: 97.2%;
+}
+
+
+
+
+

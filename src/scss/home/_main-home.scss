@@ -5,7 +5,7 @@
   font-family: 'Anonymous Pro', monospace;
 }
 .container-content {
-  width: 1440px;
+  width: 100%;
   height: 100%;
   display: flex;
 }
@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 831px;
+  width:55%;
   height: 891px;
   .main-header{
     display: flex;
@@ -110,7 +110,7 @@ section{
   }
 }
 .movie{
-  width: 609px;
+  width: 45%;
   height: 891px;
   background: #7E6EE6;
   opacity: 0.5;
