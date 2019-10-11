@@ -2,23 +2,35 @@
 *{
   margin: 0;
   padding: 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.content {
+  display: flex;
+  background-color: #151E29;
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  padding-top: 1px;
+  margin-top: -1px;
   font-family: 'Anonymous Pro', monospace;
 }
-.container-content {
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
+
 .main{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width:55%;
-  height: 891px;
+  height: 100%;
   .main-header{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 3.4%;
+    margin-right: 24px;
     @include margin();
     .main-header-logo img{
       width: 169.63px;
@@ -27,19 +39,28 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-right: 20px; //origin -none
+      flex-grow: 1;
+      margin-left: 20%;
     }
     .main-header-item{
       list-style-type:none;
-      margin-left: 16px;
+      margin-right: 16px;
       width: 44px;
       height: 44px;
+
+    }
+    .main-header-item:last-child{
+      margin-right: 0;
     }
     .main-social-link{
       display: flex;
+      justify-content: center;
+      flex-grow: 1;
+
     }
     .main-link{
-      margin-left: 80px; //origin 40
+       flex-grow: 1;
+      text-align: end;
     }
     .main-link a{
       font-size: 16px;
@@ -89,14 +110,20 @@ section{
   }
 }
 .main-footer{
+  position: fixed;
+  bottom: 0;
   background: #7E6EE6;
-  padding: 35px 0;
+  height: 70px;
+  width: 55%;
+  display: flex;
+  align-items: center;
   .main-footer-list{
+    width: 100%;
     display: flex;
     list-style-type:none;
     @include margin;
     .main-footer-item{
-      margin-right: 46px;
+      margin-right: 4.7%;
     }
     a{
       font-weight: bold;
@@ -111,7 +138,7 @@ section{
 }
 .movie{
   width: 45%;
-  height: 891px;
+  height: 100%;
   background: #7E6EE6;
   opacity: 0.5;
 }
