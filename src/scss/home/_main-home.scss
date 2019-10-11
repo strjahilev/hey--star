@@ -9,7 +9,6 @@ html, body {
 }
 .content {
   display: flex;
-  background-color: #151E29;
   position: fixed;
   top:0;
   left:0;
@@ -30,7 +29,6 @@ html, body {
     display: flex;
     justify-content: space-between;
     margin-top: 3.4%;
-    margin-right: 24px;
     @include margin();
     .main-header-logo img{
       width: 169.63px;
@@ -73,8 +71,8 @@ html, body {
 section{
   display: flex;
   @include margin;
-  margin-top: 212.4px;
-  margin-bottom: 224px; //lift up, that fit in container(in original it's 256px)
+  margin-top: 23.8%;
+  margin-bottom:36.7%;
   flex-direction: column;
   justify-content: start;
   h1{
@@ -82,8 +80,8 @@ section{
     font-weight: bold;
     font-size: 38px;
     line-height: 121%;
-    margin-right: 90px;
-    margin-bottom: 42px;
+    margin-right: 9.2%;
+    margin-bottom: 5%;
     color: #F9E7EF;
   }
   a{
@@ -136,6 +134,7 @@ section{
     }
   }
 }
+
 .movie{
   width: 45%;
   height: 100%;
